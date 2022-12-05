@@ -7,6 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <style>
 body, html {height: 100%}
 body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
@@ -40,6 +42,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   background-color: #f1f1f1;
 }
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #000;
+}
 </style>
 </head>
 <body>
@@ -193,8 +210,35 @@ for (i = 0; i < coll.length; i++) {
 <div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
   <div class="w3-content">
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Your Bookings</h1>
+    <table>
+  <tr>
+    <th>Restaurant Name</th>
+    <th>Full Name</th>
+    <th>Number of people</th>
+    <th>Timing & Date</th>
+    <th>Requirements</th>
+        
 
-    <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">  
+
+  </tr>
+  <tr>
+    <td>Les Amis</td>
+    <td>Smith Andreson</td>
+    <td>4</td>
+    <td>12:00pm on 4th December</td>
+    <td>Would like to sit at the back</td>
+    <td><i class="fa fa-trash"></i></td>
+  </tr>
+  <tr>
+    <td>Crystal Jade</td>
+    <td>Smith Andreson</td>
+    <td>5</td>
+    <td>12:00pm on 4th December</td>
+    <td>Would like table to have water before we arrive</td>
+    <td><i class="fa fa-trash"></i></td>
+  </tr>
+</table>
+    
   </div>
 </div>
 
@@ -239,6 +283,7 @@ function showDivs(n) {
     <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Restaurant Name" required name="Restaurant Name"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
