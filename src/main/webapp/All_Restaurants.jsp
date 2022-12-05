@@ -177,10 +177,11 @@ for (i = 0; i < coll.length; i++) {
 
 <!-- Carousel slider of restaurants -->
 <div class="w3-display-container">
-  <img class="mySlides" src="restaurant1.jpg" style="width:100%">
-  <img class="mySlides" src="img_lights.jpg" style="width:100%">
-  <img class="mySlides" src="img_mountains.jpg" style="width:100%">
-  <img class="mySlides" src="img_forest.jpg" style="width:100%">
+  <img class="mySlides" src="classy1.jpg" style="width:100%">
+  <img class="mySlides" src="classy2.jpg" style="width:100%">
+  <img class="mySlides" src="classy3.jpg" style="width:100%">
+  <img class="mySlides" src="classy4.jpg" style="width:100%">
+  <img class="mySlides" src="classy5.jpg" style="width:100%">
 
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
