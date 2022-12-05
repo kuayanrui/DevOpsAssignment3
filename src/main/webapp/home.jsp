@@ -20,7 +20,7 @@
 				class="nav-link">Register</a></li>
 		</ul>
 	</nav>
-	<h2 class="text-center my-5">Welcome to Home page!</h2>
+	<h2 class="text-center my-5">Welcome!</h2>
 
 </body>
 </html>

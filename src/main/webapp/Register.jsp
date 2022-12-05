@@ -36,7 +36,7 @@ Gender: <select name="gender">
 <option>Female</option>
 <option>Others</option>
 </select>
-<input type = "submit" value="Submit"/>
+<input type = "submit" value="Submit" />
 </form>
 
 </body>
