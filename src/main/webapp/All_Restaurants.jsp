@@ -228,6 +228,7 @@ for (i = 0; i < coll.length; i++) {
     <td>12:00pm on 4th December</td>
     <td>Would like to sit at the back</td>
     <td><i class="fa fa-trash"></i></td>
+    <td><i class="fa fa-edit"></i></td>
   </tr>
   <tr>
     <td>Crystal Jade</td>
@@ -236,6 +237,7 @@ for (i = 0; i < coll.length; i++) {
     <td>12:00pm on 4th December</td>
     <td>Would like table to have water before we arrive</td>
     <td><i class="fa fa-trash"></i></td>
+    <td><i class="fa fa-edit"></i></td>
   </tr>
 </table>
     
