@@ -25,7 +25,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 <div class="w3-top w3-hide-small">
   <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
     <a href="#" class="w3-bar-item w3-button">HOME</a>
-    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="#menu" class="w3-bar-item w3-button">RESTAURANTS</a>
     <a href="#about" class="w3-bar-item w3-button">BOOKINGS </a>
     <a href="#myMap" class="w3-bar-item w3-button">CONTACT US</a>
   </div>
@@ -125,10 +125,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 <!-- About Container -->
 <div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
   <div class="w3-content">
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
-    <p>Book A Restaurant! is a website used to Book Restaurants beforehand.  </p>
-    <p><strong>The Chef?</strong> Mr. Italiano himself<img src="/w3images/chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
-    <p>We are proud of our interiors.</p>
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Your Bookings</h1>
+    <p>Book A Restaurant Now!</p>
     <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">  
   </div>
 </div>
