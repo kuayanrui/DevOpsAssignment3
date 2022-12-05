@@ -85,8 +85,8 @@ a {
 <header class="bgimg w3-display-container w3-grayscale-min" id="home">
 
 <div class="container">
-    <h1>Register</h1>
-    <p>Please fill in this form to register for an account.</p>
+    <h1>Login</h1>
+    <p>Please fill in this form to login to your account.</p>
     <hr>
 
     <label for="Name"><b>Full Name</b></label>
@@ -95,12 +95,9 @@ a {
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
 
-    
-    <label for="psw"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="repeat psw" id="repeat psw" required>
-    <button type="submit" class="registerbtn">Register</button>
+    <button type="submit" class="registerbtn">Login</button>
   </div>
-      <p><a href="<%=request.getContextPath()%>/login.jsp" class="w3-button w3-large w3-white">Already have an account? Login Now!</a></p>
+      <p><a href="<%=request.getContextPath()%>/Register.jsp" class="w3-button w3-large w3-white">No Account? Register Now!</a></p>
   
 
 </header>
