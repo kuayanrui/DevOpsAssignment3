@@ -169,7 +169,7 @@ for (i = 0; i < coll.length; i++) {
 <div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
   <div class="w3-content">
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Your Bookings</h1>
-    <p>Book A Restaurant Now!</p>
+
     <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">  
   </div>
 </div>
