@@ -86,27 +86,51 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 
     <div id="Classy" class="w3-container menu w3-padding-32 w3-white">
       <button type="button" class="collapsible"><h1><b >Les Amis</b> <span class="w3-right w3-tag w3-dark-grey w3-round" >BOOK!</span></h1></button>
-      <div class="content"><p class="w3-text-grey">Famous for: Fresh tomatoes, fresh mozzarella, fresh basil</p></div>
+      <div class="content">
+      	<p class="w3-text-grey">Telephone Number: <br> (65) 6733 2225</p>
+      	<p class="w3-text-grey">Operating Hours: <br> Mon - Sun 12pm to 2pm and 7pm to 9pm</p>
+      	<p class="w3-text-grey">Restaurant Address: <br> 1 Scotts Rd, #01 - 16 Shaw Centre, Singapore 228208</p>
+      </div>
       <hr>
    
       <button type="button" class="collapsible"><h1><b> André</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
-      <div class="content"><p class="w3-text-grey">Famous for:Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p></div>
+      <div class="content">
+      	<p class="w3-text-grey">Telephone Number: <br> (65) 6733 2225</p>
+      	<p class="w3-text-grey">Operating Hours: <br> Mon - Sun 12pm to 2pm and 7pm to 9pm</p>
+      	<p class="w3-text-grey">Restaurant Address: <br> 1 Scotts Rd, #01 - 16 Shaw Centre, Singapore 228208</p>
+      </div>
       <hr>
       
       <button type="button" class="collapsible"><h1><b>Candlenut Kitchen</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
-      <div class="content"><p class="w3-text-grey">Famous for:Fresh tomatoes, mozzarella, chicken, onions</p></div>
+      <div class="content">
+      	<p class="w3-text-grey">Telephone Number: <br> 1800 304 2288</p>
+      	<p class="w3-text-grey">Operating Hours: <br> Mon - Sun 12pm to 3pm and 6pm to 10pm</p>
+      	<p class="w3-text-grey">Restaurant Address: <br> Block 15, 16, 17, 18 Dempsey Road, S249676</p>
+      </div>
       <hr>
 
       <button type="button" class="collapsible"><h1><b>Crystal Jade</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
-      <div class="content"><p class="w3-text-grey">Famous for:Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p></div>
+      <div class="content">
+      	<p class="w3-text-grey">Telephone Number: <br> (65) 6734 6866</p>
+      	<p class="w3-text-grey">Operating Hours: <br> Mon - Fri 11am to 3pm and 6pm to 9:30pm <br> Sat - Sun 10:30am to 3:30pm and 6pm to 9:30pm</p>
+      	<p class="w3-text-grey">Restaurant Address: <br> 290 Orchard Rd, #05 - 22, Singapore 238859</p>
+      </div>
       <hr>
 
       <button type="button" class="collapsible"><h1><b>Din Tai Fung</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
-      <div class="content"><p class="w3-text-grey">Famous for: Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p></div>
+      <div class="content">
+      	<p class="w3-text-grey">Telephone Number: <br> (65) 6836 8336</p>
+      	<p class="w3-text-grey">Operating Hours: <br> Mon - Thu 11:30am to 9:30pm <br> Fri - Sat 11:30am to 10pm <br> Sun 11am to 9:30pm </p>
+      	<p class="w3-text-grey">Restaurant Address: <br> 290 Orchard Rd, #B1 - 03, Singapore 238859</p>
+      </div>
       <hr>
 
       <button type="button" class="collapsible"><h1><b>Pizza Hut</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
-      <div class="content"><p class="w3-text-grey">Famous for: Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p></div>
+      <div class="content">
+      	<p class="w3-text-grey">Telephone Number: <br> (65) 6781 3413</p>
+      	<p class="w3-text-grey">Operating Hours: <br> Mon - Sun 11am to 10pm</p>
+      	<p class="w3-text-grey">Restaurant Address: <br> 4 Tampines Central 5, #02 - 02 Tampines Mall, Singapore 529510</p>
+      </div>
     </div>
     
 
