@@ -17,6 +17,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   background-image: url("restaurant1.jpg");
   min-height: 90%;
 }
+
 </style>
 </head>
 <body>
@@ -27,7 +28,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     <a href="#" class="w3-bar-item w3-button">HOME</a>
     <a href="#menu" class="w3-bar-item w3-button">RESTAURANTS</a>
     <a href="#about" class="w3-bar-item w3-button">BOOKINGS </a>
-    <a href="#myMap" class="w3-bar-item w3-button">CONTACT US</a>
+    <a href="#myMap" class="w3-bar-item w3-button">BOOK NOW!</a>
   </div>
 </div>
   
@@ -137,9 +138,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 <!-- Contact -->
 <div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
   <div class="w3-content">
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
-    <p>Find us at some address at some place or call us at 05050515-122330</p>
-    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">BOOK NOW!</h1>
+    <p> Start booking now to stop fussing around!</p>
+    <p><span class="w3-tag">WE!</span> are here to cater your needs so that YOU have a safe and easy environment to be at!</p>
     <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
