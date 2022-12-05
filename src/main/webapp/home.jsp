@@ -8,7 +8,7 @@
 <body>	
 <nav class="navbar navbar-expand-md navbar-light">
 		<div>
-			<a class="navbar-brand"> Restaruant Booking Application </a>
+			<a class="navbar-brand"> Restaurant Booking Application </a>
 		</div>
 		<ul class="navbar-nav">
 			<li><a href="<%=request.getContextPath()%>/home.jsp"
