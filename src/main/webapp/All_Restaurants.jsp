@@ -65,9 +65,9 @@ tr:nth-child(even) {
 <div class="w3-top w3-hide-small">
   <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
     <a href="#" class="w3-bar-item w3-button">HOME</a>
-    <a href="#menu" class="w3-bar-item w3-button">RESTAURANTS</a>
-    <a href="#about" class="w3-bar-item w3-button">BOOKINGS </a>
-    <a href="#myMap" class="w3-bar-item w3-button">BOOK NOW!</a>
+    <a href="#restaurants" class="w3-bar-item w3-button">RESTAURANTS</a>
+    <a href="#bookings" class="w3-bar-item w3-button">BOOKINGS </a>
+    <a href="#book_now" class="w3-bar-item w3-button">BOOK NOW!</a>
   </div>
 </div>
   
@@ -83,7 +83,7 @@ tr:nth-child(even) {
 </header>
 
 <!-- Menu Container -->
-<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="restaurants">
   <div class="w3-content">
   
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE RESTAURANTS</h1>
@@ -207,7 +207,7 @@ for (i = 0; i < coll.length; i++) {
 </div>
 
 <!-- About Container -->
-<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="bookings">
   <div class="w3-content">
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Your Bookings</h1>
     <table>
@@ -275,7 +275,7 @@ function showDivs(n) {
 </script>
 
 <!-- Contact -->
-<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge" >
   <div class="w3-content">
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">BOOK NOW!</h1>
     <p> Start booking now to stop fussing around!</p>
