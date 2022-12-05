@@ -16,7 +16,7 @@
 		</ul>
 
 		<ul class="navbar-nav">
-			<li><a href="<%=request.getContextPath()%>/Register.jsp"
+			<li><a href="<%=request.getContextPath()%>/RegisterPage.jsp"
 				class="nav-link">Register</a></li>
 		</ul>
 	</nav>
