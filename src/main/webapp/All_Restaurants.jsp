@@ -174,7 +174,7 @@ for (i = 0; i < coll.length; i++) {
   </div>
 </div>
 
-<!-- Image of location/map -->
+
 <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
 
 <!-- Contact -->
