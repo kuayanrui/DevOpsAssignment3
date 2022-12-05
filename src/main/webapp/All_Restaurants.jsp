@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -15,7 +14,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 .bgimg {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/w3images/pizza.jpg");
+  background-image: url("restaurant1.jpg");
   min-height: 90%;
 }
 </style>
@@ -27,7 +26,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
     <a href="#" class="w3-bar-item w3-button">HOME</a>
     <a href="#menu" class="w3-bar-item w3-button">MENU</a>
-    <a href="#about" class="w3-bar-item w3-button">BOOKINGS</a>
+    <a href="#about" class="w3-bar-item w3-button">BOOKINGS </a>
     <a href="#myMap" class="w3-bar-item w3-button">CONTACT US</a>
   </div>
 </div>
@@ -38,9 +37,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     <span class="w3-tag w3-xlarge">Available 24/7</span>
   </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-white w3-hide-small" style="font-size:100px">thin<br>CRUST PIZZA</span>
-    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>thin<br>CRUST PIZZA</b></span>
-    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">WELCOME!</span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the Restaurants</a></p>
   </div>
 </header>
 
@@ -48,77 +46,77 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
   <div class="w3-content">
   
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE RESTAURANTS</h1>
     <div class="w3-row w3-center w3-border w3-border-dark-grey">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Pizza</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Classy');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">CLASSY</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Salads</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Popular');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">POPULAR</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Starter</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Affordable');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">AFFORDABLE</div>
       </a>
     </div>
 
-    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
-      <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+    <div id="Classy" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b >Les Amis</b> <span class="w3-right w3-tag w3-dark-grey w3-round" >BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for: Fresh tomatoes, fresh mozzarella, fresh basil</p>
       <hr>
    
-      <h1><b>Formaggio</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
-      <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+      <h1><b> André</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for:Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
       <hr>
       
-      <h1><b>Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span></h1>
-      <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, onions</p>
+      <h1><b>Candlenut Kitchen</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for:Fresh tomatoes, mozzarella, chicken, onions</p>
       <hr>
 
-      <h1><b>Pineapple'o'clock</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.50</span></h1>
-      <p class="w3-text-grey">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+      <h1><b>Crystal Jade</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for:Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
       <hr>
 
-      <h1><b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></h1>
-      <p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+      <h1><b>Din Tai Fung</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for: Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
       <hr>
 
-      <h1><b>Parma</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
-      <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+      <h1><b>Pizza Hut</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for: Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
     </div>
 
-    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
-      <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+    <div id="Popular" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>McDonald's</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for: Special sauce, mozzarella, parmesan, ground beef</p>
       <hr>
    
-      <h1><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
-      <p class="w3-text-grey">Ravioli filled with cheese</p>
+      <h1><b>KFC</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for: Ravioli filled with cheese</p>
       <hr>
       
-      <h1><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1>
-      <p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
+      <h1><b>Jollibee</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for: Fresh tomatoes, onions, ground beef</p>
       <hr>
 
-      <h1><b>Seafood pasta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-      <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+      <h1><b>Jack's Place</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for: Salmon, shrimp, lobster, garlic</p>
     </div>
 
 
-    <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
+    <div id="Affordable" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Pastamania</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
       <p class="w3-text-grey">Ask the waiter</p>
       <hr>
    
-      <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
-      <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+      <h1><b>Sakae Sushi</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for: Bread with pesto, tomatoes, onion, garlic</p>
       <hr>
       
-      <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
-      <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+      <h1><b>4 Fingers Crispy Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for: Grilled ciabatta, garlic butter, onions</p>
       <hr>
       
-      <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-      <p class="w3-text-grey">Tomatoes and mozzarella</p>
+      <h1><b>Swensen's</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
+      <p class="w3-text-grey">Famous for: Tomatoes and mozzarella</p>
     </div><br>
 
   </div>
@@ -128,25 +126,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 <div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
   <div class="w3-content">
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
-    <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Book A Restaurant! is a website used to Book Restaurants beforehand.  </p>
     <p><strong>The Chef?</strong> Mr. Italiano himself<img src="/w3images/chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
     <p>We are proud of our interiors.</p>
-    <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
-    <h1><b>Opening Hours</b></h1>
-    
-    <div class="w3-row">
-      <div class="w3-col s6">
-        <p>Mon & Tue CLOSED</p>
-        <p>Wednesday 10.00 - 24.00</p>
-        <p>Thursday 10:00 - 24:00</p>
-      </div>
-      <div class="w3-col s6">
-        <p>Friday 10:00 - 12:00</p>
-        <p>Saturday 10:00 - 23:00</p>
-        <p>Sunday Closed</p>
-      </div>
-    </div>
-    
+    <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">  
   </div>
 </div>
 
