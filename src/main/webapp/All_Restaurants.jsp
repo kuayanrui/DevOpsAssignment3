@@ -17,6 +17,28 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   background-image: url("restaurant1.jpg");
   min-height: 90%;
 }
+.collapsible {
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #333;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
 
 </style>
 </head>
@@ -59,66 +81,86 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
         <div class="w3-col s4 tablink w3-padding-large w3-hover-red">AFFORDABLE</div>
       </a>
     </div>
+    
+    
 
     <div id="Classy" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b >Les Amis</b> <span class="w3-right w3-tag w3-dark-grey w3-round" >BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for: Fresh tomatoes, fresh mozzarella, fresh basil</p>
+      <button type="button" class="collapsible"><h1><b >Les Amis</b> <span class="w3-right w3-tag w3-dark-grey w3-round" >BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for: Fresh tomatoes, fresh mozzarella, fresh basil</p></div>
       <hr>
    
-      <h1><b> André</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for:Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+      <button type="button" class="collapsible"><h1><b> André</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for:Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p></div>
       <hr>
       
-      <h1><b>Candlenut Kitchen</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for:Fresh tomatoes, mozzarella, chicken, onions</p>
+      <button type="button" class="collapsible"><h1><b>Candlenut Kitchen</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for:Fresh tomatoes, mozzarella, chicken, onions</p></div>
       <hr>
 
-      <h1><b>Crystal Jade</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for:Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+      <button type="button" class="collapsible"><h1><b>Crystal Jade</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for:Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p></div>
       <hr>
 
-      <h1><b>Din Tai Fung</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for: Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+      <button type="button" class="collapsible"><h1><b>Din Tai Fung</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for: Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p></div>
       <hr>
 
-      <h1><b>Pizza Hut</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for: Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+      <button type="button" class="collapsible"><h1><b>Pizza Hut</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for: Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p></div>
     </div>
+    
 
     <div id="Popular" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>McDonald's</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for: Special sauce, mozzarella, parmesan, ground beef</p>
+      <button type="button" class="collapsible"><h1><b>McDonald's</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for: Special sauce, mozzarella, parmesan, ground beef</p></div>
       <hr>
    
-      <h1><b>KFC</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for: Ravioli filled with cheese</p>
+      <button type="button" class="collapsible"><h1><b>KFC</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for: Ravioli filled with cheese</p></div>
       <hr>
       
-      <h1><b>Jollibee</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for: Fresh tomatoes, onions, ground beef</p>
+      <button type="button" class="collapsible"><h1><b>Jollibee</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for: Fresh tomatoes, onions, ground beef</p></div>
       <hr>
 
-      <h1><b>Jack's Place</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for: Salmon, shrimp, lobster, garlic</p>
+      <button type="button" class="collapsible"><h1><b>Jack's Place</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for: Salmon, shrimp, lobster, garlic</p></div>
     </div>
 
 
     <div id="Affordable" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Pastamania</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Ask the waiter</p>
+      <button type="button" class="collapsible"><h1><b>Pastamania</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Ask the waiter</p></div>
       <hr>
    
-      <h1><b>Sakae Sushi</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for: Bread with pesto, tomatoes, onion, garlic</p>
+      <button type="button" class="collapsible"><h1><b>Sakae Sushi</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for: Bread with pesto, tomatoes, onion, garlic</p></div>
       <hr>
       
-      <h1><b>4 Fingers Crispy Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for: Grilled ciabatta, garlic butter, onions</p>
+      <button type="button" class="collapsible"><h1><b>4 Fingers Crispy Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for: Grilled ciabatta, garlic butter, onions</p></div>
       <hr>
       
-      <h1><b>Swensen's</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1>
-      <p class="w3-text-grey">Famous for: Tomatoes and mozzarella</p>
+      <button type="button" class="collapsible"><h1><b>Swensen's</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
+      <div class="content"><p class="w3-text-grey">Famous for: Tomatoes and mozzarella</p></div>
     </div><br>
+    
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
   </div>
 </div>
