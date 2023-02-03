@@ -96,7 +96,7 @@ a {
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
 
     
-    <label for="psw"><b>Repeat Password</b></label>
+    <label for="psw"><b>Repeat  Your Password</b></label>
     <input type="password" placeholder="Repeat Password" name="repeat psw" id="repeat psw" required>
     <button type="submit" class="registerbtn">Register</button>
   </div>
