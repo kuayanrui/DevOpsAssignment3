@@ -136,7 +136,7 @@ tr:nth-child(even) {
 
       <button type="button" class="collapsible"><h1><b>Din Tai Fung</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
       <div class="content">
-      	<p class="w3-text-grey">Telephone Number: <br> (65) 6836 8336</p>
+      	<p class="w3-text-grey">Telephone Number: <br> (65) 6836 8367</p>
       	<p class="w3-text-grey">Operating Hours: <br> Mon - Thu 11:30am to 9:30pm <br> Fri - Sat 11:30am to 10pm <br> Sun 11am to 9:30pm </p>
       	<p class="w3-text-grey">Restaurant Address: <br> 290 Orchard Rd, #B1 - 03, Singapore 238859</p>
       </div>
