@@ -89,7 +89,7 @@ a {
     <p>Please fill in this form to register for an account.</p>
     <hr>
 
-    <label for="Name"><b> Enter your Full Name</b></label>
+    <label for="Name"><b> Type your Full Name</b></label>
     <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
 
     <label for="psw"><b>Password</b></label>
