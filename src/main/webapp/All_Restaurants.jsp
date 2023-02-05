@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>DevOps Grp 6 Project - Restaurant Reservations</title>
-<title>trigger test</title>
+<title>pipeline test</title>
 
 <style>
 body, html {height: 100%}
