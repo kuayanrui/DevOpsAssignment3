@@ -77,7 +77,7 @@ tr:nth-child(even) {
     <span class="w3-tag w3-xlarge">Available 24/7</span>
   </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-white w3-hide-small" style="font-size:100px">WELCOME!</span>
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">WELCOME!!</span>
     <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the Restaurants</a></p>
   </div>
 </header>
