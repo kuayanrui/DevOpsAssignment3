@@ -112,7 +112,7 @@ tr:nth-child(even) {
    
       <button type="button" class="collapsible"><h1><b> André</b> <span class="w3-right w3-tag w3-dark-grey w3-round">BOOK!</span></h1></button>
       <div class="content">
-      	<p class="w3-text-grey">Telephone Number: <br> (65) 6733 2225</p>
+      	<p class="w3-text-grey">Telephone Number: <br> (65) 6733 1234</p>
       	<p class="w3-text-grey">Operating Hours: <br> Mon - Sun 12pm to 2pm and 7pm to 9pm</p>
       	<p class="w3-text-grey">Restaurant Address: <br> 1 Scotts Rd, #01 - 16 Shaw Centre, Singapore 228208</p>
       </div>
